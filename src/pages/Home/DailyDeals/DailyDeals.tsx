@@ -3,7 +3,7 @@ import {
   CarouselContent,
   CarouselItem,
   CarouselNavigation,
-} from "@/components/ui/carousel";
+} from "@/components/ui/carousel2";
 import { GiRoundStar } from "react-icons/gi";
 
 const DailyDeals = () => {

@@ -1,10 +1,10 @@
-import React from "react";
 import DailyDeals from "./DailyDeals/DailyDeals";
+import HeroSection from "./HeroSection/HeroSection";
 
 const Home = () => {
   return (
-    <div>
-      <h1 className="font-extrabold text-9xl text-center">Carousel!</h1>
+    <div className=" max-w-[1440px] mx-auto">
+      <HeroSection />
       <h1 className="font-extrabold text-9xl text-center">
         Features Category!
       </h1>
