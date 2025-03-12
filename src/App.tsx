@@ -6,7 +6,9 @@ function App() {
   return (
     <>
       <NavBar />
-      <Outlet />
+      <div className="bg-[#f4ede4]">
+        <Outlet />
+      </div>
       <Footer />
     </>
   );

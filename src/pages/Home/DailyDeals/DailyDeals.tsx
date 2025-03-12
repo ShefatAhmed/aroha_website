@@ -11,7 +11,7 @@ const DailyDeals = () => {
     <div className="relative w-full px-4 mt-5">
       <Carousel>
         <div className="flex items-center justify-between pb-4">
-          <h1 className="text-2xl font-semibold">
+          <h1 className="text-2xl font-medium">
             Amazing deals, updated daily
           </h1>
           <CarouselNavigation
@@ -31,7 +31,7 @@ const DailyDeals = () => {
               />
               <h1 className="mt-1">Baby Blanket, Baby gift, Baby Show…</h1>
               <div className="flex items-center gap-2">
-                <h1 className="text-[#D98E73] font-semibold text-base">
+                <h1 className="text-[#D98E73] font-medium text-base">
                   $14.99
                 </h1>
                 <h2 className="text-sm">
@@ -39,7 +39,7 @@ const DailyDeals = () => {
                 </h2>
               </div>
               <div className="flex items-center gap-1">
-                <p className="text-sm font-semibold">4.9</p>
+                <p className="text-sm font-medium">4.9</p>
                 <p>
                   <GiRoundStar />
                 </p>
@@ -56,7 +56,7 @@ const DailyDeals = () => {
               />
               <h1 className="mt-1">Personlaized Pet Mug Custom Your …</h1>
               <div className="flex items-center gap-2">
-                <h1 className="text-[#D98E73] font-semibold text-base">
+                <h1 className="text-[#D98E73] font-medium text-base">
                   $46.01
                 </h1>
                 <h2 className="text-sm">
@@ -64,7 +64,7 @@ const DailyDeals = () => {
                 </h2>
               </div>
               <div className="flex items-center gap-1">
-                <p className="text-sm font-semibold">5.0</p>
+                <p className="text-sm font-medium">5.0</p>
                 <p>
                   <GiRoundStar />
                 </p>
@@ -81,7 +81,7 @@ const DailyDeals = () => {
               />
               <h1 className="mt-1">Christmas Stocking Name Tags, Chr…</h1>
               <div className="flex items-center gap-2">
-                <h1 className="text-[#D98E73] font-semibold text-base">
+                <h1 className="text-[#D98E73] font-medium text-base">
                   $7.56
                 </h1>
                 <h2 className="text-sm">
@@ -89,7 +89,7 @@ const DailyDeals = () => {
                 </h2>
               </div>
               <div className="flex items-center gap-1">
-                <p className="text-sm font-semibold">4.9</p>
+                <p className="text-sm font-medium">4.9</p>
                 <p>
                   <GiRoundStar />
                 </p>
@@ -106,7 +106,7 @@ const DailyDeals = () => {
               />
               <h1 className="mt-1">Christmas Stocking Name Tags, Chr…</h1>
               <div className="flex items-center gap-2">
-                <h1 className="text-[#D98E73] font-semibold text-base">
+                <h1 className="text-[#D98E73] font-medium text-base">
                   $4.74
                 </h1>
                 <h2 className="text-sm">
@@ -114,7 +114,7 @@ const DailyDeals = () => {
                 </h2>
               </div>
               <div className="flex items-center gap-1">
-                <p className="text-sm font-semibold">4.8</p>
+                <p className="text-sm font-medium">4.8</p>
                 <p>
                   <GiRoundStar />
                 </p>
@@ -131,7 +131,7 @@ const DailyDeals = () => {
               />
               <h1 className="mt-1">November Birthstone Necklace Citri…</h1>
               <div className="flex items-center gap-2">
-                <h1 className="text-[#D98E73] font-semibold text-base">
+                <h1 className="text-[#D98E73] font-medium text-base">
                   $31.50
                 </h1>
                 <h2 className="text-sm">
@@ -139,7 +139,7 @@ const DailyDeals = () => {
                 </h2>
               </div>
               <div className="flex items-center gap-1">
-                <p className="text-sm font-semibold">4.6</p>
+                <p className="text-sm font-medium">4.6</p>
                 <p>
                   <GiRoundStar />
                 </p>
@@ -156,7 +156,7 @@ const DailyDeals = () => {
               />
               <h1 className="mt-1">Citrine Birthstone Ring by Caitlyn M</h1>
               <div className="flex items-center gap-2">
-                <h1 className="text-[#D98E73] font-semibold text-base">
+                <h1 className="text-[#D98E73] font-medium text-base">
                   $24.50
                 </h1>
                 <h2 className="text-sm">
@@ -164,7 +164,7 @@ const DailyDeals = () => {
                 </h2>
               </div>
               <div className="flex items-center gap-1">
-                <p className="text-sm font-semibold">4.8</p>
+                <p className="text-sm font-medium">4.8</p>
                 <p>
                   <GiRoundStar />
                 </p>

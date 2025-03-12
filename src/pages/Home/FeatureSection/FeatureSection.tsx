@@ -29,7 +29,7 @@ const FeatureSection = () => {
     <div className="w-full py-20 lg:py-40">
       <div className="container mx-auto">
         <div className="flex flex-col gap-5">
-          <h1 className="text-2xl font-semibold">Featured categories</h1>
+          <h1 className="text-2xl font-medium">Featured categories</h1>
           <Carousel setApi={setApi} className="w-full">
             <CarouselContent>
               <CarouselItem className="basis-1/3 lg:basis-1/6">
@@ -39,7 +39,7 @@ const FeatureSection = () => {
                     alt=""
                     className="rounded-md h-56 object-cover"
                   />
-                  <h1 className="text-left font-semibold text-base">Signs</h1>
+                  <h1 className="text-left font-medium text-base">Signs</h1>
                 </div>
               </CarouselItem>
               <CarouselItem className="basis-1/3 lg:basis-1/6">
@@ -49,7 +49,7 @@ const FeatureSection = () => {
                     alt=""
                     className="rounded-md h-56 object-cover"
                   />
-                  <h1 className="text-left font-semibold text-base">
+                  <h1 className="text-left font-medium text-base">
                     Digital Prints
                   </h1>
                 </div>
@@ -61,7 +61,7 @@ const FeatureSection = () => {
                     alt=""
                     className="rounded-md h-56 object-cover"
                   />
-                  <h1 className="text-left font-semibold text-base">
+                  <h1 className="text-left font-medium text-base">
                     Wall Decor
                   </h1>
                 </div>
@@ -73,7 +73,7 @@ const FeatureSection = () => {
                     alt=""
                     className="rounded-md h-56 object-cover"
                   />
-                  <h1 className="text-left font-semibold text-base">Signs</h1>
+                  <h1 className="text-left font-medium text-base">Signs</h1>
                 </div>
               </CarouselItem>
               <CarouselItem className="basis-1/3 lg:basis-1/6">
@@ -83,7 +83,7 @@ const FeatureSection = () => {
                     alt=""
                     className="rounded-md h-56 object-cover"
                   />
-                  <h1 className="text-left font-semibold text-base">
+                  <h1 className="text-left font-medium text-base">
                     Wall Decor
                   </h1>
                 </div>
@@ -95,7 +95,7 @@ const FeatureSection = () => {
                     alt=""
                     className="rounded-md h-56 object-cover"
                   />
-                  <h1 className="text-left font-semibold text-base">Signs</h1>
+                  <h1 className="text-left font-medium text-base">Signs</h1>
                 </div>
               </CarouselItem>
               <CarouselItem className="basis-1/3 lg:basis-1/6">
@@ -105,7 +105,7 @@ const FeatureSection = () => {
                     alt=""
                     className="rounded-md h-56 object-cover"
                   />
-                  <h1 className="text-left font-semibold text-base">
+                  <h1 className="text-left font-medium text-base">
                     Digital Prints
                   </h1>
                 </div>
