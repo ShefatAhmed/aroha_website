@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { GrLinkNext, GrNext, GrPrevious } from "react-icons/gr";
 import { Link } from "react-router-dom";
 
@@ -17,8 +17,16 @@ const HeroSection = () => {
     {
       image:
         "https://i.ibb.co.com/BXWCZwW/7ca2bee359f8970b244821581251ab1d.png",
-      title: "Personlaized Pet Mug With Custom Name",
-      price: "$46.01",
+      title: "Baby Blanket, Baby gift, Baby Show",
+      price: "$35.01",
+      discount: "$61.34",
+      Offer: "25% Off",
+    },
+    {
+      image:
+        "https://i.ibb.co.com/BXWCZwW/7ca2bee359f8970b244821581251ab1d.png",
+      title: "Custom Pet Portraits up to 30% off",
+      price: "$46.0",
       discount: "$61.34",
       Offer: "25% Off",
     },
@@ -34,10 +42,10 @@ const HeroSection = () => {
     );
   };
 
-  // useEffect(() => {
-  //   const interval = setInterval(nextSlide, 5000);
-  //   return () => clearInterval(interval);
-  // }, []);
+  useEffect(() => {
+    const interval = setInterval(nextSlide, 5000);
+    return () => clearInterval(interval);
+  }, []);
   return (
     <div className="relative">
       <div className="max-w-full mx-auto border border-gray-300 rounded-lg overflow-hidden">
@@ -48,9 +56,16 @@ const HeroSection = () => {
           {slides.map((slide, index) => (
             <div
               key={index}
-              className="min-w-full grid grid-cols-1 md:grid-cols-6 items-center justify-center text-center bg-[#D2B48C] gap-2 p-5 md:p-0"
+              className="min-w-full grid grid-cols-1 md:grid-cols-6 items-center justify-center text-center bg-[#D2B48C] gap-2 md:p-0"
             >
-              <div className="md:col-span-3 text-left px-5 md:px-[10%]">
+              {slide.image && (
+                <img
+                  src={slide.image}
+                  alt={slide.title}
+                  className="w-full object-cover md:col-span-3 md:rounded-tl-[100px] md:rounded-bl-[100px] order-1 md:order-2"
+                />
+              )}
+              <div className="md:col-span-3 text-left px-5 md:px-[10%] p-5 order-2 md:order-1">
                 <h1 className="text-3xl md:text-5xl font-bold">
                   {slide.title}
                 </h1>
@@ -71,16 +86,6 @@ const HeroSection = () => {
                   </Link>
                 </div>
               </div>
-              {slide.image && (
-                <img
-                  src={slide.image}
-                  alt={slide.title}
-                  className="w-full object-cover md:col-span-3"
-                  style={{
-                    borderRadius: "100px 0 0 100px",
-                  }}
-                />
-              )}
             </div>
           ))}
         </div>
