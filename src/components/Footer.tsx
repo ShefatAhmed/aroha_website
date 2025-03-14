@@ -6,7 +6,6 @@ const Footer = () => {
         <footer className="bg-[#37494F] text-white pt-10 pb-16">
         <div className="container mx-auto px-28">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-center md:text-left">
-            {/* Shop Section */}
             <div>
               <h3 className="font-semibold mb-2">Shop</h3>
               <ul className="text-sm space-y-1">
@@ -22,8 +21,6 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-  
-            {/* Sell Section */}
             <div>
               <h3 className="font-semibold mb-2">Sell</h3>
               <ul className="text-sm space-y-1">
@@ -34,8 +31,6 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-  
-            {/* About Section */}
             <div>
               <h3 className="font-semibold mb-2">About</h3>
               <ul className="text-sm space-y-1">
@@ -56,8 +51,6 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-  
-            {/* Help & Social Icons */}
             <div>
               <h3 className="font-semibold mb-2">Help</h3>
               <ul className="text-sm space-y-1">
@@ -67,7 +60,6 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-              {/* Social Icons */}
               <div className="flex justify-center md:justify-start space-x-4 mt-4 text-xl">
                 <a href="#" className="hover:text-gray-300">
                   <FaInstagram />
