@@ -49,7 +49,6 @@ const CategoryDetails = () => {
               </p>
             </div>
           </div>
-          {/* --- */}
           <div className="max-w-[327px] max-h-[355px] rounded-lg">
             <img
               src="https://i.ibb.co.com/mFN6vsTw/Overlay-Shadow.png"
@@ -73,7 +72,6 @@ const CategoryDetails = () => {
               </div>
             </div>
           </div>
-          {/* --- */}
           <div className="max-w-[327px] max-h-[355px] rounded-lg">
             <img
               src="https://i.ibb.co.com/JwXL2xf0/il-340x270-5835335975-gpov-jpg.png"
@@ -100,7 +98,6 @@ const CategoryDetails = () => {
               </p>
             </div>
           </div>
-          {/* --- */}
           <div className="max-w-[327px] max-h-[355px] rounded-lg">
             <img
               src="https://i.ibb.co.com/G4MFBwGc/il-340x270-5854409293-m2nr-jpg.png"
@@ -128,7 +125,6 @@ const CategoryDetails = () => {
               <p className="text-xs font-normal">NeveleOfficial</p>
             </div>
           </div>
-          {/* --- */}
           <div className="max-w-[327px] max-h-[355px]  rounded-lg">
             <img
               src="https://i.ibb.co.com/nMyf8V10/Background-3.png"
@@ -156,7 +152,6 @@ const CategoryDetails = () => {
               </p>
             </div>
           </div>
-          {/* --- */}
           <div className="max-w-[327px] max-h-[355px]  rounded-lg">
             <img
               src="https://i.ibb.co.com/cXJgTq2t/Background-1.png"
@@ -187,7 +182,6 @@ const CategoryDetails = () => {
               </div>
             </div>
           </div>
-          {/* --- */}
           <div className="max-w-[327px] max-h-[355px]  rounded-lg">
             <img
               src="https://i.ibb.co.com/pjwf6Vtc/Background-4.png"
@@ -218,7 +212,6 @@ const CategoryDetails = () => {
               </p>
             </div>
           </div>
-          {/* --- */}
           <div className="max-w-[327px] max-h-[355px] rounded-lg">
             <img
               src="https://i.ibb.co.com/JjyGn98T/Background-2.png"
@@ -246,7 +239,6 @@ const CategoryDetails = () => {
               </p>
             </div>
           </div>
-          {/* --- */}
           <div className="max-w-[327px] max-h-[355px] rounded-lg">
             <img
               src="https://i.ibb.co.com/7x940MH6/Background.png"
@@ -274,7 +266,6 @@ const CategoryDetails = () => {
               <p className="text-xs font-normal">DearDiaryGifts</p>
             </div>
           </div>
-          {/* --- */}
           <div className="max-w-[327px] max-h-[355px] rounded-lg">
             <img
               src="https://i.ibb.co.com/1tYPSYn1/Background-1.png"
@@ -305,7 +296,6 @@ const CategoryDetails = () => {
               <p className="text-xs font-normal">CeramiccoFDIY</p>
             </div>
           </div>
-          {/* --- */}
           <div className="max-w-[327px] max-h-[355px]  rounded-lg">
             <img
               src="https://i.ibb.co.com/C3zPH4Vr/Overlay-Shadow.png"
@@ -333,7 +323,6 @@ const CategoryDetails = () => {
               <p className="text-xs font-normal">SchepperDesign</p>
             </div>
           </div>
-          {/* --- */}
           <div className="max-w-[327px] max-h-[355px] rounded-lg">
             <img
               src="https://i.ibb.co.com/1Gynmh66/Background-2.png"
@@ -364,7 +353,6 @@ const CategoryDetails = () => {
               </p>
             </div>
           </div>
-          {/* --- */}
           <div className="max-w-[327px] max-h-[355px] rounded-lg">
             <img
               src="https://i.ibb.co.com/C3M9pP5y/il-340x270-5143283286-6frr-jpg.png"
@@ -395,7 +383,6 @@ const CategoryDetails = () => {
               </p>
             </div>
           </div>
-          {/* --- */}
           <div className="max-w-[327px] max-h-[355px] rounded-lg">
             <img
               src="https://i.ibb.co.com/chbjC4fZ/Background-3.png"
@@ -426,7 +413,6 @@ const CategoryDetails = () => {
               <p className="text-xs font-normal">EmblifeDesign</p>
             </div>
           </div>
-          {/* --- */}
           <div className="max-w-[327px] max-h-[355px] rounded-lg">
             <img
               src="https://i.ibb.co.com/pBqpkQVG/Overlay-Shadow-1.png"
@@ -455,7 +441,6 @@ const CategoryDetails = () => {
               </p>
             </div>
           </div>
-          {/* --- */}
           <div className="max-w-[327px] max-h-[355px] rounded-lg">
             <img
               src="https://i.ibb.co.com/zWNTtpy9/Overlay-Shadow-2.png"
@@ -480,7 +465,6 @@ const CategoryDetails = () => {
               <p className="text-xs font-normal">ad by ZueyBoutique</p>
             </div>
           </div>
-          {/* --- */}
           <div className="max-w-[327px] max-h-[355px] rounded-lg">
             <img src="" alt="" className="w-full" />
             <div>
@@ -510,7 +494,6 @@ const CategoryDetails = () => {
               </p>
             </div>
           </div>
-          {/* --- */}
         </div>
         <div>
           <h1 className="font-medium text-base my-5">

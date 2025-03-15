@@ -23,7 +23,7 @@ const DailyDeals = () => {
         </div>
         <CarouselContent className="-ml-4">
           <CarouselItem className="basis-1/2 md:basis-1/6  pl-4">
-            <div className="">
+            <div>
               <img
                 src="https://i.ibb.co.com/zDb6DxD/il-600x600-6054692229-s78b-jpg.png"
                 alt=""
